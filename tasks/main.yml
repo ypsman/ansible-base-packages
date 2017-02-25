@@ -1,0 +1,5 @@
+---
+# tasks file for base
+- name: installing Base Packages
+  apt: name={{ item }} state=latest
+  with_items: "{{ packages|default([]) }}"
