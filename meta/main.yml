@@ -11,5 +11,8 @@ galaxy_info:
     versions: all
   galaxy_tags:
   - packages
-  - base install
+  - install
+  - apt
+  - debian
+  - ubuntu
 dependencies: []
