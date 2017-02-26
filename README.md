@@ -1,7 +1,7 @@
 base Packages
 =============
 
-Installs your base Packages
+Installs your base Packages on Debian and Ubuntu Systems
 
 Example Playbook
 ----------------
