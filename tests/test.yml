@@ -1,7 +1,5 @@
 ---
 - hosts: localhost
   remote_user: root
-  vars:
-    packages: vim
   roles:
     - ypsman.base-packages
