@@ -24,9 +24,12 @@ install:
 
   # Install Role from Ansible Galaxy
   - ansible-galaxy install ypsman.base-packages
+
 script:
   # Basic role syntax check
   - ansible-playbook tests/test.yml -i tests/inventory --syntax-check
+  # Install vim for Testing
+  #- ansible-playbook tests/test.yml -i tests/inventory --sudo
 
 notifications:
   webhooks: https://galaxy.ansible.com/api/v1/notifications/
