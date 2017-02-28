@@ -9,6 +9,6 @@ Example Playbook
     - hosts: all
       roles:
         - role: ypsman.base-packages
-          base-packages:
+          basepackages:
             - vim
             - htop
