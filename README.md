@@ -12,3 +12,5 @@ Example Playbook
           basepackages:
             - vim
             - htop
+          basepackages_remove:
+            - exim4

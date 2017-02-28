@@ -1,3 +1,4 @@
 ---
 # defaults file for base
 basepackages: []
+basepackages_remove: []
