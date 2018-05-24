@@ -1,7 +1,7 @@
 base Packages
 =============
 [![Build Status](https://travis-ci.org/ypsman/ansible-base-packages.svg?branch=master)](https://travis-ci.org/ypsman/ansible-base-packages)
-Installs your base Packages on Debian and Ubuntu Systems
+Installs and removes Packages.
 
 Example Playbook
 ----------------

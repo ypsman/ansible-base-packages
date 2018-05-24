@@ -1,13 +1,15 @@
 ---
 galaxy_info:
   author: ypsman
-  description: easy way to install / remove youre base Packages on Debian and Ubuntu
+  description: easy way to install / remove youre base Packages
   license: license (GPLv2, CC-BY, etc)
-  min_ansible_version: 1.2
+  min_ansible_version: 2.2
   platforms:
   - name: Ubuntu
     versions: all
   - name: Debian
+    versions: all
+  - name: EL
     versions: all
   galaxy_tags:
   - packages
@@ -15,6 +17,9 @@ galaxy_info:
   - uninstall
   - remove
   - apt
+  - yum
   - debian
   - ubuntu
+  - centos
+  - redhat
 dependencies: []
