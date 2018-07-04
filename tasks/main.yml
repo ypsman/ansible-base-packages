@@ -11,5 +11,5 @@
   with_items: "{{ basepackages|default([]) }}"
 
 - name: remove unwanted Packages
-  package : name={{ item }} state=absent
+  package: name={{ item }} state=absent
   with_items: "{{ basepackages_remove|default([]) }}"
